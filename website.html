@@ -1,31 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Design</title>
-    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocational University</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script src="javascript.js"></script>
 </head>
-
 <body>
-
     <section class="header">
+        
         <nav>
-            <a href="website.html"><img src="images/instagram (2).png " alt="A Teddybear Logo"></a>
-            <div>
+            <a href="index.html"><img src="images/University-logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-
+        
+        <div class="text-box">
+            <h1>Vocational University</h1>
+            <p>Master your theoretical and practical studies in close cooperation with employers and industry.<br>Apply for vocational education and take the next step in your career!</p>
+            <a href="contact.html" class="hero-btn">Know More</a>
+        </div>
     </section>
 
-</body>
+    <!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- campus ---------->
+    
+    <section class="campus">
+        <h1>Campuses in Europe</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/Stockholm.png">
+                    <div class="layer">
+                        <h3>STOCKHOLM</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/Amsterdam.png">
+                    <div class="layer">
+                        <h3>AMSTERDAM</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/Berlin.png">
+                    <div class="layer">
+                        <h3>BERLIN</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/Library.jpg">
+                    <h3>Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Playground.jpg">
+                    <h3>Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Cafeteria.jpg">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+            </div>
+    </section>
+    
+    
+<!---------- testimonials ---------->
+    
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <div> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                        <h3>Ryan Cooper</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                        <h3>Elizabeth Jenkins</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!------ Call To Action ------>
 
+<section class="cta">
+    
+       <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="https://en.wikipedia.org/wiki/Vocational_university" class="hero-btn">CONTACT US</a>
+    
+</section>    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <a href="https://en.wikipedia.org/wiki/Vocational_university"><i class="fa fa-facebook"></i></a>
+            <a href="https://en.wikipedia.org/wiki/Vocational_university"><i class="fa fa-twitter"></i></a>
+            <a href="https://en.wikipedia.org/wiki/Vocational_university"><i class="fa fa-instagram"></i></a>
+            <a href="https://en.wikipedia.org/wiki/Vocational_university"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="https://en.wikipedia.org/wiki/Vocational_university" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Vocational University</p></a>
+</section>    
+  
+</body>
 </html>
+
+
+
